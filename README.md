@@ -1,6 +1,23 @@
-# Experiments with Poloniex public API
+# WIP! Experiments with Poloniex public API
 
-No API Keys needed
+Only MVP is implemented, but it works.
+No API Keys needed.
+
+## Planned features
+
+- [x] Get Candles for few pairs by public Poloniex REST API
+- [x] Subscribe to public Poloniex websocket channels Trades and Candles
+- [x] Parse incoming messages
+- [x] Save data to Parquet files
+- [x] Read data from Parquet files
+- [ ] Save Parquet files to S3 buckets
+- [ ] Ingest data to QuickWit Index
+- [ ] Query data from QuickWit Index with Grafana
+- [ ] Config file for starting app
+- [ ] Socket for getting new parameters and locking app instance
+- [ ] Thread pool for websocket loops
+- [ ] IPC for communication between instances of the same app
+- [ ] Helm Chart for deploying app in Kubernetes
 
 ## Prerequisites
 
