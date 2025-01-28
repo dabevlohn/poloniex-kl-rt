@@ -7,6 +7,7 @@ No API Keys needed
 ```bash
 # Install some tools
 cargo install hurl bacon just
+cargo install parquet --features="cli,arrow,zstd,json,async"
 # Check source code
 bacon
 # Check Poloniex public API

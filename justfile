@@ -19,4 +19,5 @@ polo_api:
 
 # Read saved data
 read_data:
-    duckdb -c 'select * from trades.parquet;'
+    #duckdb -c 'select * from trades.parquet;'
+    parquet-read trades.parquet
